@@ -1,0 +1,31 @@
+{
+  "name": "yhzxz-bulma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanliyuan/yhzxz-bulma.git"
+  },
+  "author": "yuanhong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanliyuan/yhzxz-bulma/issues"
+  },
+  "homepage": "https://github.com/tanliyuan/yhzxz-bulma#readme",
+  "devDependencies": {
+    "bulma": "^0.9.2",
+    "css-loader": "^5.2.5",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
